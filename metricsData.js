@@ -1,6 +1,6 @@
 // Metrics and Indicators for "Lidera D1: Emociones que Mueven la Tienda"
 
-const METRICS_TABLE = window.METRICS_TABLE = [
+window.METRICS_TABLE = [
   {
     id: "asistencia",
     week: "1 a 8",
@@ -195,7 +195,7 @@ const METRICS_TABLE = window.METRICS_TABLE = [
   }
 ];
 
-const OBSERVATION_RUBRIC = window.OBSERVATION_RUBRIC = [
+window.OBSERVATION_RUBRIC = [
   {
     behavior: "1. Regula su reacción",
     description: "Manejo sereno de la emoción ante la tensión o el error ajeno.",
@@ -248,7 +248,7 @@ const OBSERVATION_RUBRIC = window.OBSERVATION_RUBRIC = [
   }
 ];
 
-const SURVEY_QUESTIONS = window.SURVEY_QUESTIONS = [
+window.SURVEY_QUESTIONS = [
   { id: 1, text: "Mi líder comunica con claridad las prioridades del turno.", preFavorable: 64, postFavorable: 86 },
   { id: 2, text: "Mi líder escucha mi versión antes de tomar una decisión que me afecta.", preFavorable: 48, postFavorable: 75 },
   { id: 3, text: "Las correcciones y llamadas de atención se realizan con respeto y en privado.", preFavorable: 52, postFavorable: 79 },

@@ -1,6 +1,6 @@
 // Data store for Program "Lidera D1: Emociones que Mueven la Tienda"
 
-const PROGRAM_INFO = window.PROGRAM_INFO = {
+window.PROGRAM_INFO = {
   title: "Lidera D1: Emociones que Mueven la Tienda",
   subtitle: "Programa de Liderazgo Emocional para Tiendas D1",
   duration: "8 Semanas",
@@ -15,7 +15,7 @@ const PROGRAM_INFO = window.PROGRAM_INFO = {
   weeklyDedication: "60–90 min sesión semanal + 10–15 min de práctica diaria en tienda protegida"
 };
 
-const PILLARS_EI = window.PILLARS_EI = [
+window.PILLARS_EI = [
   {
     id: "autoconciencia",
     name: "Autoconciencia Emocional",
@@ -63,7 +63,7 @@ const PILLARS_EI = window.PILLARS_EI = [
   }
 ];
 
-const LEADERSHIP_APPROACHES = window.LEADERSHIP_APPROACHES = [
+window.LEADERSHIP_APPROACHES = [
   {
     name: "Liderazgo Participativo",
     badge: "Colaborativo",
@@ -96,7 +96,7 @@ const LEADERSHIP_APPROACHES = window.LEADERSHIP_APPROACHES = [
   }
 ];
 
-const BENCHMARKING_DATA = window.BENCHMARKING_DATA = [
+window.BENCHMARKING_DATA = [
   {
     referent: "Grupo Éxito",
     learning: "Desarrollo formal de líderes en tienda, cultura de conversaciones 1 a 1 de feedback continuo y tableros unificados de indicadores.",
@@ -114,7 +114,7 @@ const BENCHMARKING_DATA = window.BENCHMARKING_DATA = [
   }
 ];
 
-const WEEKS_DATA = window.WEEKS_DATA = [
+window.WEEKS_DATA = [
   {
     week: 1,
     title: "Diagnóstico Emocional, Clima y DOFA Personal",

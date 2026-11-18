@@ -1,6 +1,6 @@
 // Realistic Interactive Roleplay Cases for Store Leaders at Tiendas D1
 
-const ROLEPLAY_CASES = window.ROLEPLAY_CASES = [
+window.ROLEPLAY_CASES = [
   {
     id: "caso-inventario",
     title: "Caso 1: Error en Inventario Crítico bajo Presión de Cierre",

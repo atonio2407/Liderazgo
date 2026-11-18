@@ -1,15 +1,15 @@
 // Main Application Orchestrator for "Lidera D1: Emociones que Mueven la Tienda"
 // Standard Script Mode (Compatible with file:/// and web servers)
-const PROGRAM_INFO = window.PROGRAM_INFO;
-const PILLARS_EI = window.PILLARS_EI;
-const LEADERSHIP_APPROACHES = window.LEADERSHIP_APPROACHES;
-const BENCHMARKING_DATA = window.BENCHMARKING_DATA;
-const WEEKS_DATA = window.WEEKS_DATA;
-const METRICS_TABLE = window.METRICS_TABLE;
-const OBSERVATION_RUBRIC = window.OBSERVATION_RUBRIC;
-const SURVEY_QUESTIONS = window.SURVEY_QUESTIONS;
-const ROLEPLAY_CASES = window.ROLEPLAY_CASES;
-const D1_LOGO_BASE64 = window.D1_LOGO_BASE64;
+var PROGRAM_INFO = window.PROGRAM_INFO;
+var PILLARS_EI = window.PILLARS_EI;
+var LEADERSHIP_APPROACHES = window.LEADERSHIP_APPROACHES;
+var BENCHMARKING_DATA = window.BENCHMARKING_DATA;
+var WEEKS_DATA = window.WEEKS_DATA;
+var METRICS_TABLE = window.METRICS_TABLE;
+var OBSERVATION_RUBRIC = window.OBSERVATION_RUBRIC;
+var SURVEY_QUESTIONS = window.SURVEY_QUESTIONS;
+var ROLEPLAY_CASES = window.ROLEPLAY_CASES;
+var D1_LOGO_BASE64 = window.D1_LOGO_BASE64;
 
 // Route configuration
 const ROUTES = {
