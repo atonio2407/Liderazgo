@@ -1,0 +1,19 @@
+{
+  "name": "lidera-d1-emociones-que-mueven-la-tienda",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Plataforma integral de formación en liderazgo e inteligencia emocional para Tiendas D1",
+  "scripts": {
+    "dev": "python -m http.server 3000",
+    "start": "python -m http.server 3000"
+  },
+  "keywords": [
+    "liderazgo",
+    "tiendas-d1",
+    "inteligencia-emocional",
+    "retail",
+    "capacitacion"
+  ],
+  "author": "Programa Ejecutivo Lidera D1",
+  "license": "MIT"
+}

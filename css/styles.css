@@ -1,0 +1,99 @@
+/* Custom Styles for Lidera D1 */
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+  --d1-red: #E30613;
+  --d1-red-dark: #B5000A;
+  --d1-yellow: #FED100;
+  --d1-yellow-dark: #E2B800;
+  --d1-dark: #0F172A;
+}
+
+body {
+  font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  background-color: #F8FAFC;
+  color: #1E293B;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* Animations */
+@keyframes pulseRing {
+  0% { transform: scale(0.95); opacity: 0.8; }
+  50% { transform: scale(1.15); opacity: 0.3; }
+  100% { transform: scale(0.95); opacity: 0.8; }
+}
+
+.animate-pulse-ring {
+  animation: pulseRing 4s infinite ease-in-out;
+}
+
+@keyframes breatheGuide {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.4); }
+}
+
+.breathe-circle {
+  transition: transform 4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.breathe-circle.inhale {
+  transform: scale(1.45);
+}
+
+.breathe-circle.hold {
+  transform: scale(1.45);
+}
+
+.breathe-circle.exhale {
+  transform: scale(1);
+}
+
+/* Custom card shadow */
+.card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(15, 23, 42, 0.06), 0 2px 6px -1px rgba(15, 23, 42, 0.04);
+}
+
+.card-hover {
+  transition: all 0.2s ease-in-out;
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px -4px rgba(15, 23, 42, 0.1), 0 4px 10px -2px rgba(15, 23, 42, 0.05);
+}
+
+/* D1 Badge gradient */
+.badge-d1 {
+  background: linear-gradient(135deg, #E30613 0%, #C4000C 100%);
+  color: #FFFFFF;
+}
+
+/* Print optimizations */
+@media print {
+  nav, footer, .no-print {
+    display: none !important;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+  .print-page {
+    box-shadow: none !important;
+    border: none !important;
+  }
+}
